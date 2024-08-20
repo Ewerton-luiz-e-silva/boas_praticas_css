@@ -1,0 +1,5 @@
+/* theme.css */
+.produtos__item--destaque {
+    border-color: gold;
+    background-color: #ffff42;
+}

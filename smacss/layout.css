@@ -1,0 +1,23 @@
+/* layout.css */
+.produtos {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Substituí 33% por fr para flexibilidade */
+    grid-column-gap: 1%;
+}
+
+.produtos__item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 2px solid transparent; /* Será modificado pelo tema */
+    padding: 0;
+}
+
+.produtos__item--destaque {
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42; /* Definido pelo tema */
+}
